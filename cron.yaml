@@ -1,0 +1,8 @@
+cron:
+- description: daily database update
+  url: /cron/update
+  schedule: every day 05:00
+
+- description: daily database deletion
+  url: /cron/delete
+  schedule: every day 02:00
